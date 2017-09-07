@@ -1,7 +1,7 @@
 // LED with Potmeter - Task 5
 
 // Variables
-int led = 8;
+int led = 7;
 int petro = A1;
 int petroValue = 0;
 
@@ -13,6 +13,8 @@ void setup(){
 void loop(){
   petroValue = analogRead(petro);
 
+  Serial.print(petroValue);
+
   if(petroValue <= 300){
     digitalWrite(led, HIGH);
   }
@@ -20,5 +22,4 @@ void loop(){
     digitalWrite(led, LOW);
   }
 }
-
 
