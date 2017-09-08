@@ -18,7 +18,8 @@ void loop() {
     int nyVariabel = 4;
   }
 
-  static int tall = 0;
+  static int tall = 0; // statisk variabel som ikke endres i en loop
+  static unsigned int tall = 0 // statisk variabel som ikke endres i en loop og ikke blir negativ
   Serial.println(tall);
   tall++;
 }
