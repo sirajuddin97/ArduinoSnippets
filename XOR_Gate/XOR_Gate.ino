@@ -4,7 +4,7 @@ void setup() {
 }
 
 void loop() {
-  // AND gate: the LED will turn on only if pin 8 and 7 are both HIGH
+  // XOR gate: the LED will turn on only if either pin 8 or 7 is HIGH.
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
 }
