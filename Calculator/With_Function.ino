@@ -11,9 +11,6 @@ void loop() {
   
   while(Serial.available() == 0){} // Pause
   tall2 = Serial.parseInt();
-  
-  Serial.println(tall1);
-  Serial.println(tall2);
 
   svar = tall1 + tall2;
   skrivUt(tall1, tall2, tall3);
