@@ -13,10 +13,10 @@ void loop() {
   tall2 = Serial.parseInt();
 
   svar = tall1 + tall2;
-  skrivUt(tall1, tall2, tall3);
+  skrivUt(tall1, tall2, svar);
 }
 
-void skrivUt(int tall1, int tall2, int tall3) {
+void skrivUt(int tall1, int tall2, int svar) {
   Serial.print(tall1);
   Serial.print(" + ");
   Serial.print(tall2);
