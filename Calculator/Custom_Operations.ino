@@ -3,24 +3,24 @@ void setup() {
 }
 
 void loop() {
-  int tall1, tall2, svar;
+  float tall1, tall2, svar;
   char op;
   
   Serial.println("Skriv inn et regnestykke");
 
   while(Serial.available() == 0){} // Pause
-  tall1 = Serial.parseInt();
+  tall1 = Serial.parseFloat();
 
   op = Serial.read();
   
   while(Serial.available() == 0){} // Pause
-  tall2 = Serial.parseInt();
+  tall2 = Serial.parseFloat();
 
   svar = regnUt(tall1, tall2, op);  
 }
 
-int regnUt(int t1, int t2, char op) {
-  int svar;
+int regnUt(float t1, float t2, char op) {
+  float svar;
 
   if(op == '+') {
     svar = t1 + t2;
