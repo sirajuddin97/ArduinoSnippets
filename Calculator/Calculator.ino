@@ -6,4 +6,5 @@ void loop() {
   int tall1, tall2, svar;
 
   Serial.println("Skriv inn to heltall");
+  
 }
