@@ -5,6 +5,11 @@ void setup() {
 void loop() {
   int tall1, tall2, svar;
   Serial.println("Skriv inn to heltall");
-  tall1 = Serial.parseInt();
-  Serial.println(tall1);
+
+  while(Serial.available() == 0){
+    tall1 = Serial.parseInt();
+    tall2 = Serial.parseInt();
+    Serial.println(tall1);
+    Serial.println(tall2);
+  }
 }
