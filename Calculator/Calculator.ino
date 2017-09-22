@@ -14,4 +14,12 @@ void loop() {
   
   Serial.println(tall1);
   Serial.println(tall2);
+
+  svar = tall1 + tall2;
+  Serial.print(tall1);
+  Serial.print(" + ");
+  Serial.print(tall2);
+  Serial.print(" = ");
+  Serial.println(svar);
+  //Serial.println(svar, BIN); // Binary number
 }
