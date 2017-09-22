@@ -23,3 +23,4 @@ void loop() {
   Serial.println(svar);
   //Serial.println(svar, BIN); // Binary number
 }
+
