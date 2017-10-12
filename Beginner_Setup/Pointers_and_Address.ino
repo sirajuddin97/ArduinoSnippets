@@ -13,7 +13,7 @@ void loop() {
   Serial.println((unsigned int) pointer2);
   Serial.println(*pointer1); // Gå tilbake fra adresse til vanlig int tall
   
-  swap(tall1, tall2);
+  swap2(tall1, tall2);
   Serial.println(tall1);
   Serial.println(tall2);
 
@@ -24,5 +24,11 @@ void swap(int tall1, tall2){
   int tmp = tall1;
   tall1 = tall2;
   tall2 = tmp;
+}
+
+void swap2(int* pTall1, pTall2){
+  int tmp = *pTall1;
+  *pTall1 = *pTall2;
+  *pTall2 = tmp;
 }
 
