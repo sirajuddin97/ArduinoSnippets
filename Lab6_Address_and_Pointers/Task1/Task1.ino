@@ -17,7 +17,7 @@ void loop() {
   Serial.print(tall2);
   Serial.println(tall3);
 
-  delay(1000);
+  delay(500);
 }
 
 int abs1(int input){
