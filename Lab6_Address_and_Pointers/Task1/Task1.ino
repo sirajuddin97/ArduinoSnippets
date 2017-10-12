@@ -1,5 +1,4 @@
-// DFDP1100-1 17H Digitale systemer og programmering | Lab 6, Adresser og pekere
-// Oppgave 1:
+// DFDP1100-1 17H Digitale systemer og programmering | Lab 6, Oppgave 1:
 
 void setup() {
   Serial.begin(9600);
