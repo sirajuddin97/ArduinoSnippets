@@ -38,4 +38,3 @@ void printOut(){
     Serial.println(measurements[i].timeStamp);
   }
 }
-
