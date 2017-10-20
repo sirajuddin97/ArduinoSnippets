@@ -1,17 +1,31 @@
+const int potPin = A0;
+const int buttonPin = 8;
+
 struct data{
   int potValue;
   int buttonValue;
   unsigned long timeStamp;
 };
 
-const int potPin = A0;
-const int buttonPin = 8;
+data measurements[10];
 
-void setup() {
+void setup(){
   pinMode(potPin, INPUT);
   pinMode(buttonPin, INPUT);
+  Serial.begin(9600);
 }
 
-void loop() {
-  
+void loop(){
+  measure();
+  printOut();
+  delay(1000);
 }
+
+void measure(){
+  //
+}
+
+void printOut(){
+  //
+}
+
