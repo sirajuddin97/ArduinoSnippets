@@ -1,3 +1,4 @@
+// DFDP1100-1 17H Digitale systemer og programmering | Lab 8, Oppgave 4:
 #include <LiquidCrystal.h>
 #include <idDHT11.h>
 

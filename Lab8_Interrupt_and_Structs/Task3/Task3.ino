@@ -1,3 +1,4 @@
+// DFDP1100-1 17H Digitale systemer og programmering | Lab 8, Oppgave 3:
 const int led = 7;
 const int redButton = 2;
 const int blueButton = 3;

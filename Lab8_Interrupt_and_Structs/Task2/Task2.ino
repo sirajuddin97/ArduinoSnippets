@@ -1,3 +1,4 @@
+// DFDP1100-1 17H Digitale systemer og programmering | Lab 8, Oppgave 2:
 const int led = 3;
 const int button = 2;
 volatile int ledBlink = 1000;
