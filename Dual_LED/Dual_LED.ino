@@ -1,6 +1,3 @@
-// Dual LED - Task 2
-
-// Variables
 int led_1 = 7;
 int led_2 = 11;
 int led_1_speed = 100;

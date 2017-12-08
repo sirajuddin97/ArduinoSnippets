@@ -1,6 +1,3 @@
-// Blinking LED - Task 1
-
-// Variables
 int led_1 = 7;
 int led_1_speed = 350;
 
